@@ -1,0 +1,29 @@
+﻿
+@model FoodyTekmerEntityLayer.Concrete.Product
+@{
+   
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<h1>Yeni Ürün Girişi</h1>
+<form method="post">
+    <label>Ürün Adı</label>
+    <input type="text" class="form-control" asp-for="Name" style="border:1px solid black;" />
+    <br />
+    <label>Görsel URL</label>
+    <br />
+    <input type="text" class="form-control" asp-for="ImageUrl" style="border:1px solid black;" />
+    <br />
+    <label>Eski Fiyat</label>
+    <br />
+    <input type="text" class="form-control" asp-for="OldPrice" style="border:1px solid black;" />
+    <br />
+    <label>Yeni Fiyat</label>
+    <br />
+    <input type="text" class="form-control" asp-for="NewPrice" style="border:1px solid black;" />
+    
+    <button class="btn btn-success mt-3">Ürün Ekle</button>
+</form>
+
+
+
+
