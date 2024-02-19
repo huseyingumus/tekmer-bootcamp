@@ -15,3 +15,14 @@ Proje geliştirme sürecimizde, .NET Core 6.0'ın sunduğu yeniliklerden de fayd
 - SOLID
 
   
+## Oluşturulan Sayfalar
+
+- Ana Sayfa
+- Ürünler (Admin)
+- Ürün Ekle
+- Ürün Güncelle
+- Kategoriler (Admin)
+- Kategori Ekle
+- Kategori Güncelle
+
+  
